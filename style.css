@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.box{
+    position :absolute;
+    height:27rem;
+    width: 90%;
+    border: 2px solid;
+    left:50%;
+    transform: translate(-50%);
+}
+.footer{
+    position :absolute;
+    bottom: 0px;
+    height:10rem;
+    width: 100%;
+    border: 2px solid; 
+    background-color: #041333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img{
+    background-position: center;
+    background-size: cover;
+}
+.set1{
+    position: absolute;
+    bottom:1.5rem;
+    left:10rem;
+}
+.set2{
+    position: absolute;
+    bottom:1.5rem;
+    left:30rem;
+}
+.set3{
+    position: absolute;
+    bottom:1.5rem;
+    left:50rem;
+}
+.f{
+    color:white;
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding-bottom:.5rem;
+}
